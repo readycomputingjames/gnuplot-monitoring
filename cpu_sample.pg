@@ -12,10 +12,10 @@ set format x "%H:%M"
 
 set xlabel "time"
 
-set ylabel "Memory Usage"
+set ylabel "CPU Utilization"
 set yrange [0:100]
 
-set title "Memory Usage per Host"
+set title "CPU Utilization per Host"
 set key reverse Left outside
 set grid
 
